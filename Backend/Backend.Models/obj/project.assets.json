@@ -2943,11 +2943,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adam\\Source\\Repos\\dating\\Backend\\Backend.Models\\Backend.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Adam\\Source\\Repos\\znakomctvo\\Backend\\Backend.Models\\Backend.Models.csproj",
       "projectName": "Backend.Models",
-      "projectPath": "C:\\Users\\Adam\\Source\\Repos\\dating\\Backend\\Backend.Models\\Backend.Models.csproj",
+      "projectPath": "C:\\Users\\Adam\\Source\\Repos\\znakomctvo\\Backend\\Backend.Models\\Backend.Models.csproj",
       "packagesPath": "C:\\Users\\Adam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adam\\Source\\Repos\\dating\\Backend\\Backend.Models\\obj\\",
+      "outputPath": "C:\\Users\\Adam\\Source\\Repos\\znakomctvo\\Backend\\Backend.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

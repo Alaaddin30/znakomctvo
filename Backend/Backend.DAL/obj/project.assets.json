@@ -4152,11 +4152,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adam\\Source\\Repos\\dating\\Backend\\Backend.DAL\\Backend.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Adam\\Source\\Repos\\znakomctvo\\Backend\\Backend.DAL\\Backend.DAL.csproj",
       "projectName": "Backend.DAL",
-      "projectPath": "C:\\Users\\Adam\\Source\\Repos\\dating\\Backend\\Backend.DAL\\Backend.DAL.csproj",
+      "projectPath": "C:\\Users\\Adam\\Source\\Repos\\znakomctvo\\Backend\\Backend.DAL\\Backend.DAL.csproj",
       "packagesPath": "C:\\Users\\Adam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adam\\Source\\Repos\\dating\\Backend\\Backend.DAL\\obj\\",
+      "outputPath": "C:\\Users\\Adam\\Source\\Repos\\znakomctvo\\Backend\\Backend.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4175,8 +4175,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Adam\\Source\\Repos\\dating\\Backend\\Backend.Models\\Backend.Models.csproj": {
-              "projectPath": "C:\\Users\\Adam\\Source\\Repos\\dating\\Backend\\Backend.Models\\Backend.Models.csproj"
+            "C:\\Users\\Adam\\Source\\Repos\\znakomctvo\\Backend\\Backend.Models\\Backend.Models.csproj": {
+              "projectPath": "C:\\Users\\Adam\\Source\\Repos\\znakomctvo\\Backend\\Backend.Models\\Backend.Models.csproj"
             }
           }
         }

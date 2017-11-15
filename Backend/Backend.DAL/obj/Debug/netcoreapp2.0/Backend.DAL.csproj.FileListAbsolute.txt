@@ -11,3 +11,16 @@ C:\Users\Adam\Source\Repos\dating\Backend\Backend.DAL\bin\Debug\netcoreapp2.0\Ba
 C:\Users\Adam\Source\Repos\dating\Backend\Backend.DAL\bin\Debug\netcoreapp2.0\Backend.Models.pdb
 C:\Users\Adam\Source\Repos\dating\Backend\Backend.DAL\obj\Debug\netcoreapp2.0\Backend.DAL.dll
 C:\Users\Adam\Source\Repos\dating\Backend\Backend.DAL\obj\Debug\netcoreapp2.0\Backend.DAL.pdb
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Backend.DAL\bin\Debug\netcoreapp2.0\Backend.DAL.deps.json
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Backend.DAL\bin\Debug\netcoreapp2.0\Backend.DAL.runtimeconfig.json
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Backend.DAL\bin\Debug\netcoreapp2.0\Backend.DAL.runtimeconfig.dev.json
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Backend.DAL\bin\Debug\netcoreapp2.0\Backend.DAL.dll
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Backend.DAL\bin\Debug\netcoreapp2.0\Backend.DAL.pdb
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Backend.DAL\bin\Debug\netcoreapp2.0\Backend.Models.dll
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Backend.DAL\bin\Debug\netcoreapp2.0\Backend.Models.pdb
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Backend.DAL\obj\Debug\netcoreapp2.0\Backend.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Backend.DAL\obj\Debug\netcoreapp2.0\Backend.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Backend.DAL\obj\Debug\netcoreapp2.0\Backend.DAL.AssemblyInfoInputs.cache
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Backend.DAL\obj\Debug\netcoreapp2.0\Backend.DAL.AssemblyInfo.cs
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Backend.DAL\obj\Debug\netcoreapp2.0\Backend.DAL.dll
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Backend.DAL\obj\Debug\netcoreapp2.0\Backend.DAL.pdb
