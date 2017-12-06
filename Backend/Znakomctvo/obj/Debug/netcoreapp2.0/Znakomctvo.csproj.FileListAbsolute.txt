@@ -1,0 +1,15 @@
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Znakomctvo\bin\Debug\netcoreapp2.0\Znakomctvo.deps.json
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Znakomctvo\bin\Debug\netcoreapp2.0\Znakomctvo.runtimeconfig.json
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Znakomctvo\bin\Debug\netcoreapp2.0\Znakomctvo.runtimeconfig.dev.json
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Znakomctvo\bin\Debug\netcoreapp2.0\Znakomctvo.dll
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Znakomctvo\bin\Debug\netcoreapp2.0\Znakomctvo.pdb
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Znakomctvo\bin\Debug\netcoreapp2.0\Backend.DAL.dll
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Znakomctvo\bin\Debug\netcoreapp2.0\Backend.Models.dll
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Znakomctvo\bin\Debug\netcoreapp2.0\Backend.DAL.pdb
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Znakomctvo\bin\Debug\netcoreapp2.0\Backend.Models.pdb
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Znakomctvo\obj\Debug\netcoreapp2.0\Znakomctvo.csprojResolveAssemblyReference.cache
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Znakomctvo\obj\Debug\netcoreapp2.0\Znakomctvo.csproj.CoreCompileInputs.cache
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Znakomctvo\obj\Debug\netcoreapp2.0\Znakomctvo.AssemblyInfoInputs.cache
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Znakomctvo\obj\Debug\netcoreapp2.0\Znakomctvo.AssemblyInfo.cs
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Znakomctvo\obj\Debug\netcoreapp2.0\Znakomctvo.dll
+C:\Users\Adam\Source\Repos\znakomctvo\Backend\Znakomctvo\obj\Debug\netcoreapp2.0\Znakomctvo.pdb

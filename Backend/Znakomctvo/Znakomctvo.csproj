@@ -1,0 +1,73 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ClientApp\app.routing.ts" />
+    <None Remove="ClientApp\app\components\filter.component.ts" />
+    <None Remove="ClientApp\app\components\footer.component.ts" />
+    <None Remove="ClientApp\app\components\pagination.component.ts" />
+    <None Remove="ClientApp\app\components\profile.component.ts" />
+    <None Remove="ClientApp\app\components\sidebar.component.ts" />
+    <None Remove="ClientApp\app\components\structure.component.ts" />
+    <None Remove="ClientApp\app\components\user.component.ts" />
+    <None Remove="ClientApp\app\components\users.component.ts" />
+    <None Remove="ClientApp\app\models\enums.model.ts" />
+    <None Remove="ClientApp\app\models\enums\enums.ts" />
+    <None Remove="ClientApp\app\modules\model.module.ts" />
+    <None Remove="ClientApp\app\modules\structure.module.ts" />
+    <None Remove="ClientApp\app\repositories\appUser.repository.ts" />
+    <None Remove="ClientApp\app\repositories\config\Filter.class.ts" />
+    <None Remove="ClientApp\app\repositories\config\Pagination.class.ts" />
+    <None Remove="ClientApp\boot.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet">
+      <version>2.0.0</version>
+    </DotNetCliToolReference>
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Backend.DAL\Backend.DAL.csproj" />
+    <ProjectReference Include="..\Backend.Models\Backend.Models.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\app.routing.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\filter.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\footer.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\pagination.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\profile-card.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\profile.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\sidebar.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\structure.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\user.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\users.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\navigation.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\models\AppUser.model.ts" />
+    <TypeScriptCompile Include="ClientApp\app\models\enums.model.ts" />
+    <TypeScriptCompile Include="ClientApp\app\models\enums\enums.ts" />
+    <TypeScriptCompile Include="ClientApp\app\models\Message.model.ts" />
+    <TypeScriptCompile Include="ClientApp\app\models\Photo.model.ts" />
+    <TypeScriptCompile Include="ClientApp\app\modules\model.module.ts" />
+    <TypeScriptCompile Include="ClientApp\app\modules\structure.module.ts" />
+    <TypeScriptCompile Include="ClientApp\app\repositories\appUser.repository.ts" />
+    <TypeScriptCompile Include="ClientApp\app\repositories\config\Filter.class.ts" />
+    <TypeScriptCompile Include="ClientApp\app\repositories\config\Pagination.class.ts" />
+    <TypeScriptCompile Include="ClientApp\boot.ts" />
+  </ItemGroup>
+
+</Project>

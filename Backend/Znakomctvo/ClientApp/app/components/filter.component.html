@@ -1,0 +1,47 @@
+﻿<form novalidate #searchForm="ngForm">
+    <div class="mt-4 mb-4">
+        <div class="row form-inline ml-2 mb-3">
+            <label class="mr-sm-2">Looking for</label>
+            <select #gender="ngModel" name="gender" [(ngModel)]="filter.gender" class="custom-select mb-2 mr-sm-2 mb-sm-0">
+                <option value="all">--Choose gender--</option>
+                <option *ngFor="let gender of genders">{{gender}}</option>
+            </select>
+            <label class="mr-sm-2">Region</label>
+            <select #region="ngModel" name="region" [(ngModel)]="filter.region"  (change)="getCities($event.target.value)"  class="custom-select mb-2 mr-sm-2 mb-sm-0">
+                <option value="all">--Choose Region--</option>
+                <option *ngFor="let region of regions">{{region}}</option>
+            </select>
+            <label class="mr-sm-2">City</label>
+            <select #city="ngModel" name="city" [(ngModel)]="filter.city"  class="custom-select mb-2 mr-sm-2 mb-sm-0">
+                <option value="all" selected>--Choose city--</option>
+                <option *ngFor="let city of cities">{{city}}</option>
+            </select>
+        </div>
+        <div class="row form-inline ml-2">
+            <label class="mr-sm-2">from</label>
+            <select #fromAge="ngModel" name="fromAge" [(ngModel)]="filter.fromAge"  class="custom-select mb-2 mr-2 mb-sm-0">
+                <option *ngFor="let age of ages">{{age}}</option>
+            </select>
+            <label class="mr-sm-2">to</label>
+            <select #toAge="ngModel" name="toAge" [(ngModel)]="filter.toAge"  class="custom-select mb-2 mr-2 mb-sm-0">
+                <option *ngFor="let age of ages">{{age}}</option>
+            </select>
+            <div class="form-check mr-2">
+                <label class="form-check-label">
+                    <input #online="ngModel" name="online" [(ngModel)]="filter.online"  type="checkbox" class="form-check-input">
+                    Online only
+                </label>
+            </div>
+
+            <div class="form-check mr-2">
+                <label class="form-check-label">
+                    <input #photo="ngModel" name="photo" [(ngModel)]="filter.photo"  type="checkbox" class="form-check-input">
+                    Photo
+                </label>
+            </div>
+
+            <button (click)="filterUsers()" class="btn btn-info btn-sm pt-2 pb-2 pr-4 pl-4 mr-2">Search</button>
+        </div>
+    </div>
+</form>
+<hr />

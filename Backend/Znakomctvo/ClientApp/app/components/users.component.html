@@ -1,0 +1,13 @@
+﻿<div *ngIf="requestDone; else waiting" class="p-1 ml-2">
+        <div class="row" *ngIf="users?.length > 0;else nodata">
+            <div *ngFor="let user of users;" class="col-sm-4 col-lg-4 col-md-4">
+                <zn-user [zn-user]="user"></zn-user>
+            </div>
+        </div>
+    </div>
+<ng-template #waiting>
+    <h4 class="m-5 text-center text-info">Waiting for data...</h4>
+</ng-template>
+<ng-template #nodata>
+    <h4 class="m-5 text-center text-info">No Users.</h4>
+</ng-template>

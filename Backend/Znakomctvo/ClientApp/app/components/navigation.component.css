@@ -1,0 +1,8 @@
+﻿button.btn-link {
+    color:#fff;
+}
+    button.btn-link,button.btn-link:focus, button.btn-link:active {
+        text-decoration: none;
+        border: none !important;
+        /*background-color: #3ba4f9;*/
+    }
