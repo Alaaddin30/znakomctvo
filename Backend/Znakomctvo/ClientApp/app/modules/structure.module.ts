@@ -11,9 +11,10 @@ import { BrowserModule } from "@angular/platform-browser";
 import { RouterModule } from "@angular/router";
 import { ProfileCardComponent } from "../components/profile-card.component";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { OutletComponent } from "../components/outlet.component";
 
 @NgModule({
-    declarations: [UsersComponent, UserComponent, NavigationComponent,
+    declarations: [UsersComponent, OutletComponent , UserComponent, NavigationComponent,
         FooterComponent, FilterComponent, SidebarComponent, PaginationComponent, ProfileCardComponent, StructureComponent],
     imports: [BrowserModule, RouterModule, FormsModule, ReactiveFormsModule],
     exports: [StructureComponent]

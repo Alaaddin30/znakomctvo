@@ -8,6 +8,7 @@
     <None Remove="ClientApp\app.routing.ts" />
     <None Remove="ClientApp\app\components\filter.component.ts" />
     <None Remove="ClientApp\app\components\footer.component.ts" />
+    <None Remove="ClientApp\app\components\outlet.component.ts" />
     <None Remove="ClientApp\app\components\pagination.component.ts" />
     <None Remove="ClientApp\app\components\profile.component.ts" />
     <None Remove="ClientApp\app\components\sidebar.component.ts" />
@@ -49,6 +50,7 @@
     <TypeScriptCompile Include="ClientApp\app.routing.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\filter.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\footer.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\outlet.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\pagination.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\profile-card.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\profile.component.ts" />

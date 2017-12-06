@@ -19,6 +19,7 @@ var platform_browser_1 = require("@angular/platform-browser");
 var router_1 = require("@angular/router");
 var profile_card_component_1 = require("../components/profile-card.component");
 var forms_1 = require("@angular/forms");
+var outlet_component_1 = require("../components/outlet.component");
 var StructureModule = (function () {
     function StructureModule() {
     }
@@ -26,7 +27,7 @@ var StructureModule = (function () {
 }());
 StructureModule = __decorate([
     core_1.NgModule({
-        declarations: [users_component_1.UsersComponent, user_component_1.UserComponent, navigation_component_1.NavigationComponent,
+        declarations: [users_component_1.UsersComponent, outlet_component_1.OutletComponent, user_component_1.UserComponent, navigation_component_1.NavigationComponent,
             footer_component_1.FooterComponent, filter_component_1.FilterComponent, sidebar_component_1.SidebarComponent, pagination_component_1.PaginationComponent, profile_card_component_1.ProfileCardComponent, structure_component_1.StructureComponent],
         imports: [platform_browser_1.BrowserModule, router_1.RouterModule, forms_1.FormsModule, forms_1.ReactiveFormsModule],
         exports: [structure_component_1.StructureComponent]

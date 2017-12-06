@@ -88,19 +88,33 @@ export class AppUserRepository {
 
     getMen(): void {
         this.users = null;
+        this.requestCompleted = false;
         this.sendRequest(RequestMethod.Get, usersUrl + "/" + "men")
             .subscribe(response => {
                 this.users = response;
                 this.pagination.currentPage = 1;
+            },
+            error => {
+                console.log("***" + error + "***");
+            },
+            () => {
+                this.requestCompleted = true;
             });
     }
 
     getWomen(): void {
         this.users = null;
+        this.requestCompleted = false;
         this.sendRequest(RequestMethod.Get, usersUrl + "/" + "women")
             .subscribe(response => {
                 this.users = response;
                 this.pagination.currentPage = 1;
+            },
+            error => {
+                console.log("***" + error + "***");
+            },
+            () => {
+                this.requestCompleted = true;
             });
     }
 

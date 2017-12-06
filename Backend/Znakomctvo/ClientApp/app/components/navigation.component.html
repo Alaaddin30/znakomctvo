@@ -7,14 +7,17 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <button class="btn btn-link" (click)="getAll()">All users <span class="sr-only">(current)</span></button>
+                <button class="btn btn-link" (click)="getAll()" routerLink="/">All users <span class="sr-only">(current)</span></button>
             </li>
             <li class="nav-item active" [routerLinkActive]="['active']">
-                <button class="btn btn-link" (click)="getMen()">Men</button>
+                <button class="btn btn-link" (click)="getMen()" routerLink="/">All Men</button>
             </li>
             <li class="nav-item">
-                <button class="btn btn-link" (click)="getWomen()">Women</button>
+                <button class="btn btn-link" (click)="getWomen()" routerLink="/">All Women</button>
             </li>
+            <!--<li class="nav-item">
+                <a class="btn btn-link" routerLink="/outlet">outlet</a>
+            </li>-->
         </ul>
         <!--<form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="text" placeholder="Search">

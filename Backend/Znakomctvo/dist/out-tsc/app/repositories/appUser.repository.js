@@ -40,6 +40,7 @@ var AppUserRepository = (function () {
     AppUserRepository.prototype.getAllUsers = function () {
         var _this = this;
         this.users = null;
+        this.requestCompleted = false;
         this.sendRequest(http_1.RequestMethod.Get, usersUrl)
             .subscribe(function (response) {
             _this.users = response;
@@ -53,6 +54,7 @@ var AppUserRepository = (function () {
     AppUserRepository.prototype.filterUsers = function () {
         var _this = this;
         this.users = null;
+        this.requestCompleted = false;
         var url = usersUrl + "/filter";
         if (this.filter.gender) {
             url += "?gender=" + this.filter.gender;
@@ -88,19 +90,29 @@ var AppUserRepository = (function () {
     AppUserRepository.prototype.getMen = function () {
         var _this = this;
         this.users = null;
+        this.requestCompleted = false;
         this.sendRequest(http_1.RequestMethod.Get, usersUrl + "/" + "men")
             .subscribe(function (response) {
             _this.users = response;
             _this.pagination.currentPage = 1;
+        }, function (error) {
+            console.log("***" + error + "***");
+        }, function () {
+            _this.requestCompleted = true;
         });
     };
     AppUserRepository.prototype.getWomen = function () {
         var _this = this;
         this.users = null;
+        this.requestCompleted = false;
         this.sendRequest(http_1.RequestMethod.Get, usersUrl + "/" + "women")
             .subscribe(function (response) {
             _this.users = response;
             _this.pagination.currentPage = 1;
+        }, function (error) {
+            console.log("***" + error + "***");
+        }, function () {
+            _this.requestCompleted = true;
         });
     };
     AppUserRepository.prototype.sendRequest = function (verb, url, data) {

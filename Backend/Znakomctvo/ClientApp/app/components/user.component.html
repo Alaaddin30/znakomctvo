@@ -1,8 +1,8 @@
-﻿<div [routerLink]="['/profile', user?.id]" class="card mb-2" style="width: 20rem;">
+﻿<div [routerLink]="['/profile', user?.id]" class="card mb-2" style="width: 100%;">
     <img class="card-img-top" src="http://via.placeholder.com/300x200" alt="Card image cap">
     <div class="card-block">
         <h4 class="card-title">{{user?.name}}</h4>
-        <p class="card-text">{{user?.email}}</p>
+        <p class="card-text">{{user?.city}}</p>
         <button class="btn btn-info btn-sm pt-2 pb-2 pr-3 pl-3">Send message</button>
     </div>
 </div>
